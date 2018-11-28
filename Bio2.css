@@ -1,0 +1,75 @@
+body{
+    font-family: comic, times,helvetica;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+header{
+    background: rgb(90,90,90);
+    color:blue;
+    border-bottom:red 3px solid;
+    min-height: 120px;
+    
+}
+
+header h1{
+    float:left;
+    margin-top: 50px;
+    
+}
+
+nav{
+    float: right;
+    margin-top: 50px;
+}
+
+header li{
+    
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+    color:blue;
+    
+}
+header a{
+
+    text-decoration:none;
+    color:blue;
+    text-transform: uppercase;
+    
+}
+#showcase{
+    
+    background:url(manWithHat.jpg) no-repeat -150px -20px;
+    min-height: 500px;
+    color:blue;
+}
+#showcase h1{
+    color:black;
+}
+.hat{
+    float:left;
+    width:30%;
+    text-align:center;
+}
+.hat h3{
+    color:blue;
+}
+footer{
+    background-color:rgb(90,90,90);
+    color: Black;
+    margin-top:10px;
+    border-top: red 3px solid;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+header a:hover{
+    color:red;
+    font-weight:black
+}
